@@ -1,0 +1,28 @@
+{
+  "persona": "degen",
+  "ollamaModel": "llama3.2:3b",
+  "defaultContextMessages": 20,
+  "watch": {
+    "enabled": true,
+    "channelIds": [],
+    "keywords": [
+      "mint",
+      "wl",
+      "allowlist",
+      "airdrop",
+      "reveal",
+      "floor",
+      "sweep",
+      "claim",
+      "bridge",
+      "gas"
+    ],
+    "minScoreToNotify": 2,
+    "cooldownSecondsPerChannel": 60
+  },
+  "digest": {
+    "enabled": true,
+    "intervalMinutes": 10,
+    "maxItems": 10
+  }
+}
